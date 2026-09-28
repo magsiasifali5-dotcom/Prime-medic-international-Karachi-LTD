@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Medic International Karachi LTD.</title>
+    <link rel="stylesheet" href="Style.css">
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+        }
+
+        .company-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 25px;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-title {
+            font-size: 42px;     
+            font-weight: bold;   
+            color: #002b9e;      
+            margin: 0;
+            letter-spacing: 0.5px;
+            line-height: 1;
+        }
+
+        .sub-title {
+            font-size: 20px;     
+            font-weight: bold;
+            color: #002b9e;      
+            margin-top: 6px;
+            margin-bottom: 8px;
+            letter-spacing: 0.5px;
+        }
+
+        /* 3 colors ki underline strip */
+        .color-bar {
+            display: flex;
+            height: 5px;
+            width: 100%;
+            border-radius: 2px;
+            overflow: hidden;
+        }
+
+        .bar-blue { flex: 1.2; background-color: #002b9e; }
+        .bar-red  { flex: 1;   background-color: #e51924; }
+        .bar-green{ flex: 1.2; background-color: #00a651; }
+
+        .logo-svg {
+            width: 85px;
+            height: 85px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Company Header Section -->
+    <div class="company-header">
+        <!-- Text Section -->
+        <div class="text-container">
+            <h1 class="main-title">Prime Medic</h1>
+            <div class="sub-title">International Karachi LTD.</div>
+            
+            <!-- Underline Bar -->
+            <div class="color-bar">
+                <div class="bar-blue"></div>
+                <div class="bar-red"></div>
+                <div class="bar-green"></div>
+            </div>
+        </div>
+
+        <!-- Hollow Center Cross Logo -->
+        <svg class="logo-svg" viewBox="0 0 100 100">
+            <defs>
+                <!-- Blue Gradient -->
+                <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#0052d4" />
+                    <stop offset="100%" stop-color="#002b9e" />
+                </linearGradient>
+
+                <!-- Green Gradient -->
+                <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#00a651" />
+                    <stop offset="100%" stop-color="#00d166" />
+                </linearGradient>
+
+                <!-- Red Gradient -->
+                <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#ff1a1a" />
+                    <stop offset="100%" stop-color="#b30000" />
+                </linearGradient>
+            </defs>
+
+            <!-- Outer Rounded Cross Parts -->
+            <path d="M 30,32 L 14,32 A 12,12 0 0,0 2,44 L 2,56 A 12,12 0 0,0 14,68 L 30,68 Z" fill="url(#blueGrad)" />
+            <path d="M 32,30 L 32,14 A 12,12 0 0,1 44,2 L 56,2 A 12,12 0 0,1 68,14 L 68,30 L 86,30 A 12,12 0 0,1 98,42 L 98,58 A 12,12 0 0,1 86,70 L 68,70 L 68,30 Z" fill="url(#greenGrad)" />
+            <path d="M 32,70 L 68,70 L 68,86 A 12,12 0 0,1 56,98 L 44,98 A 12,12 0 0,1 32,86 Z" fill="url(#redGrad)" />
+
+            <!-- Beech ka Plus Space -->
+            <path d="M 30,30 L 70,30 L 70,70 L 30,70 Z" fill="#ffffff" />
+            <path d="M 42,12 L 58,12 L 58,88 L 42,88 Z" fill="#ffffff" />
+            <path d="M 12,42 L 88,42 L 88,58 L 12,58 Z" fill="#ffffff" />
+        </svg>
+    </div>
+
+    <!-- Hero Banner Image Section -->
+    <div class="hero-banner">
+        <div class="hero-image-container">
+            <img src="350623.jpg" alt="Prime Medic International Building">
+        </div>
+    </div>
+
+    <!-- Company Introduction / About Us Section -->
+    <section class="about-section">
+        <div class="about-header">
+            <span class="about-subtitle">Welcome to Prime Medic</span>
+            <h2 class="about-title">Company Introduction</h2>
+        </div>
+
+        <div class="about-content">
+            <p>
+                <strong>Prime Medic International</strong> is a leading marketing and manufacturing pharmaceutical company in Pakistan, expert in manufacturing branded pharmaceutical products. We combine technical agility with a responsive team that adds real value to your development and manufacturing projects.
+            </p>
+            
+            <p>
+                We have the flexibility to produce a variety of products, with large capacities for manufacturing penicillin, cephalosporin, psychotropic, injectables, general tablets, capsules, syrups, dry suspensions, creams, ointments, and nutraceuticals delivered in the name of third-party manufacturing pharma company.
+            </p>
+
+            <p>
+                Prime Medic's dedicated e-commerce platforms offer a curated range of premium, safe, and effective supplements—backed by decades of pharmaceutical expertise and GMP-certified quality.
+            </p>
+
+            <!-- Key Highlights Badges -->
+            <div class="badge-container">
+                <span class="badge highlight-badge">✓ GMP Certified Quality</span>
+                <span class="badge highlight-badge">✓ Third-Party Manufacturing</span>
+                <span class="badge">Tablets & Capsules</span>
+                <span class="badge">Syrups & Dry Suspensions</span>
+                <span class="badge">Injectables & Psychotropic</span>
+                <span class="badge">Creams & Ointments</span>
+                <span class="badge">Nutraceuticals</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision & Mission Section -->
+    <section class="products-section">
+        <div class="vision-mission-grid">
+            <div class="vm-card">
+                <h3>Our Vision</h3>
+                <p>To become a leading and globally recognized healthcare provider known for quality, integrity, and excellence in pharmaceutical distribution and services.</p>
+            </div>
+
+            <div class="vm-card">
+                <h3>Our Mission</h3>
+                <ul>
+                    <li><strong>Accessibility:</strong> To make essential and life-saving medicines accessible to everyone.</li>
+                    <li><strong>Quality Assurance:</strong> To uphold the highest standards of safety, quality, and compliance in every product we distribute.</li>
+                    <li><strong>Customer Focus:</strong> To build long-lasting partnerships with hospitals, pharmacies, and healthcare professionals based on trust and transparency.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-section">
+        <div class="about-header">
+            <span class="about-subtitle">Why Choose Us</span>
+            <h2 class="about-title">Why Prime Medic International?</h2>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-box">
+                <h4>✓ Uncompromised Quality</h4>
+                <p>We only trade and distribute certified, high-grade pharmaceuticals.</p>
+            </div>
+            <div class="feature-box">
+                <h4>✓ Reliable Network</h4>
+                <p>A robust distribution system in Karachi and beyond to ensure timely delivery.</p>
+            </div>
+            <div class="feature-box">
+                <h4>✓ Ethical Business Practices</h4>
+                <p>Integrity, safety, and patient health are at the heart of everything we do.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CEO Message Section -->
+    <section class="why-choose-section">
+        <div class="ceo-section">
+            <div class="ceo-content">
+                <h3>Message from the CEO</h3>
+                <p class="ceo-quote">
+                    "In the pharmaceutical industry, we don't just sell medicines—we deliver hope, care, and quality of life. At Prime Medic International Karachi Ltd., our commitment goes beyond business; it is a commitment to human life and safety. We strive every day to ensure that quality healthcare reaches every individual who needs it."
+                </p>
+                <div class="ceo-details">
+                    <h4>Meer Asif Ali Magsi</h4>
+                    <p>CEO, Prime Medic International Karachi Ltd.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Products Section -->
+    <section class="products-section">
+        <div class="about-header">
+            <span class="about-subtitle">What We Offer</span>
+            <h2 class="about-title">Pharmaceutical Categories</h2>
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <h3>Tablets & Capsules</h3>
+                <p>High-capacity production of general oral solid dosage forms with strict quality assurance.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Syrups & Dry Suspensions</h3>
+                <p>Advanced liquid and dry powder formulation facilities designed for maximum stability.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Injectables & Sterile</h3>
+                <p>Aseptic manufacturing of psychotropic, cephalosporin, and general injectable products.</p>
+            </div>
+
+            <div class="product-card">
+                <h3>Nutraceuticals & Supplements</h3>
+                <p>Premium range of safe, effective dietary supplements and wellness products.</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
